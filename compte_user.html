@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annli</title>
+    <!--Ajoutons le css-->
+    <link rel="stylesheet" href="../css/home-user-style.css"/>
+    <link rel="stylesheet" href="../css/compte-user-style.css"/>
+    <!--Ajoutons les liens pour les outils supplementaires-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Lien avec le fichier Javascript-->
+    <script type="module" defer src="../js/confirmation-suppresion-compte.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header class="header-home">
+        <a href="home_user.html"><img src="../images/Logo-Annli.jpg" alt="Logo d'Annli" class="logo"/></a>
+       <img src="../images/search-icon.png" alt="" class="point-recherche"/>
+    </header>
+    <!--Bar de navigation fixée au bas de la page-->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="home_user.html"><img src="../images/home.png" alt=""></a></li>
+            <li><img src="../images/library.svg" alt=""></li>
+            <li><img src="../images/history.svg" alt=""></li>
+            <li><img src="../images/user.png" alt="" class="user-icone-option"></li>
+        </ul>
+    </nav>
+    
+    <!--Section pour l'affichage des contenus-->
+    <section class="section-liens-redirections">
+        <div class="deco">
+            <img src="../images/user.png" alt=""/>
+            <h2><hr>Bonjour,<br/><span class="user-name">Nom d'utilisateur</span></h2>
+        </div>
+        <main>
+            <hr>
+            <ul>
+                <a href="info-profil.html"><li>Informations de Profil <i class='bx bx-right-arrow-alt' style='color:#fbf9f9'></i></li></a>
+                <a href="info-perso.html"><li>Informations Personnelles <i class='bx bx-right-arrow-alt' style='color:#fbf9f9'></i></li></a>
+                <a href="facturation.html"><li>Facturation <i class='bx bx-right-arrow-alt' style='color:#fbf9f9'></i></li></a>
+            </ul>
+            <hr>
+            <div >
+                <a href="#"></a>
+            </div>
+            <button class="btn-sup-compte">Supprimez votre compte</button>
+        </main>
+    </section>
+    <div class="page-modal-sup">
+        <div class="modale-sup-compte">
+            <h2>Etes-vous sur de vouloir supprimer votre Compte</h2>
+            <div class="conteneur-btn-sup-compte">
+                <button class="btn-annule">Annuler</button>
+                <button class="btn-supp-modal">Supprimer</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

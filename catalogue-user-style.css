@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+header{
+    padding:calc(20*var(--res));
+    border-bottom:1px solid #525252;
+}
+header img{
+    width:calc(400*var(--res));
+}
+section{
+    padding:calc(00*var(--res));
+}
+.conteneur-retour-facture img{
+    width:calc(50*var(--res));
+    margin:calc(20*var(--res));
+}
+.conteneur-catalogues ul li a{
+    text-decoration: none;
+    color:#252525;
+    display:flex;
+    justify-content: space-between;
+    padding:calc(30*var(--res));
+    background-color: #7fa7ff67;
+    margin-bottom:calc(60*var(--res));
+    margin-top:calc(60*var(--res));
+}
+.catalogue-genre{
+    display:flex;
+    align-items: center;
+    gap:calc(30*var(--res));
+}
+.catalogue-genre p{
+    font-size:calc(70*var(--res));
+}
+
+/*Travaillons sur le Navbar*/
+.navbar{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #ff9898;
+    border-top:1px solid #E85353;
+    z-index: 1;
+}
+.nav-list{
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list li img{
+    width:calc(100*var(--res));
+}
+
+/*Partie du deuxieme section permettant d'afficher les documents*/
+
+.documents-catalogue{
+    display:none;
+    position:absolute;
+    top:0;
+    background-color: #ffffff;
+}
+
+
+
+.conteneur-titre-catalogue{
+    padding:calc(30*var(--res));
+    color:#E85353;
+    font-size:calc(70*var(--res));
+    margin-bottom:calc(30*var(--res));
+}
+.icon-navigation, .icone-doc{
+    width:calc(70*var(--res));
+}
+
+.catalogue-genre-documents{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:calc(20*var(--res));
+}
+.document-element{
+    width:45%;
+    height:auto;
+    background-color: #f3f3f3;
+    padding:calc(20*var(--res));
+    margin-top:calc(10*var(--res));
+    border-radius:10px;
+}
+.document-couverture{
+    display: flex;
+}
+.document-couverture img{
+    width:95%;
+    justify-content: center;
+}
+.titre-doc{
+    font-size:calc(50*(var(--res)));
+}
+
+
+
+
+
+/*Partie pour les infos des livres*/
+.info-bref-doc{
+    padding:calc(20*var(--res));
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color: #ffffff;
+    display:none;
+}
+.conteneur-retour-list-doc img{
+    width:calc(50*var(--res));
+    margin:calc(20*var(--res));
+}
+hr{
+    margin:calc(20*var(--res));
+}
+
+.conteneur-couverture-doc{
+    display:flex;
+    justify-content: center;
+    margin-bottom:calc(50*var(--res));
+    background-color: #cecece;
+    padding:calc(20*var(--res));
+    border-radius: 10px;
+}
+.conteneur-info-doc h2{
+    font-size:calc(70*var(--res));
+}
+.conteneur-info-doc h3{
+    font-size:calc(60*var(--res));
+    color:#525252;
+}
+.conteneur-page-edition{
+    /* border:1px solid black; */
+    margin-top:calc(30*var(--res));
+    display:flex;
+    gap:15px;
+    font-size:calc(50*var(--res));
+}
+.conteneur-description{
+    margin-top:calc(30*var(--res));
+    /* border:1px solid black; */
+    font-size:calc(50*var(--res));
+    text-align:inherit;
+}
+.conteneur-bouton{
+    margin-top:calc(50*var(--res));
+    display:flex;
+    flex-direction: column;
+}
+.conteneur-bouton>button{
+    background-color: hsl(0, 0%, 100%);
+    color:#7fa8ffde;
+}
+.conteneur-bouton button{
+    padding:calc(30*var(--res));
+    margin-bottom: calc(20*var(--res));
+    font-size:calc(55*var(--res));
+    font-weight: bold;
+    color: #ffffff;
+    border:none;
+    background-color:#7fa8ffde;
+}
+.conteneur-bouton button img{
+    width:calc(50*var(--res));
+}
+
+.btn-lire{
+    width:100%;
+    background-color: #7fa8ffde;
+    padding:calc(30*var(--res));
+    display: flex;
+    justify-content: center;
+    font-size:calc(55*var(--res));
+    font-weight: bold;
+    color:#ffffff;
+    margin-bottom:calc(35*var(--res));
+}
+.btn-lire p{
+    align-items:center;
+}
+.btn-lire img{
+    width:calc(50*var(--res));
+    
+}
+
+.btn-emprunt{
+    width:100%;
+    background-color: #ffffff;
+    border: 1px solid #7fa8ffde;
+    padding:calc(30*var(--res));
+    display: flex;
+    justify-content: center;
+    font-size:calc(55*var(--res));
+    font-weight: bold;
+    color:#2764E7;
+}
+.btn-emprunt img{
+    width:calc(60*var(--res));
+}
+
+

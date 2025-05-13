@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Ajoutons le css-->
+    <link rel="stylesheet" href="../css/home-user-style.css"/>
+    <link rel="stylesheet" href="../css/info-profil-style.css"/>
+    <!--Ajoutons le Javascript-->
+    <script typte="module" defer src="../js/mdp.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header class="header-home">
+        <a href="home_user.html"><img src="../images/Logo-Annli.jpg" alt="Logo d'Annli" class="logo"/></a>
+    
+        <img src="../images/search-icon.png" alt="" class="point-recherche"/>
+    </header>
+    <!--Bar de navigation fixée au bas de la page-->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="home_user.html"><img src="../images/home.png" alt=""></a></li>
+            <li><img src="../images/library.svg" alt=""></li>
+            <li><img src="../images/history.svg" alt=""></li>
+            <li><img src="../images/user.png" alt="" ></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="conteneur-retour">
+            <a href="compte_user.html"><img src="../images/retour.png"/></a> 
+            
+        </div>
+        <div class="conteneur-titre-texte-info-profil">
+            <h1>Informations de Profil</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam voluptatibus voluptate eos 
+                dolores nobis perspiciatis.
+            </p>
+        </div>
+        <form method="" action="">
+            <div class="champ-conteneur">
+                <label for="mail">Adresse E-mail</label>
+                <input type="email" placeholder=""/>
+            </div>
+            <div class="champ-conteneur">
+                <label for="nom-utilisateur">Nom d'utilisateur</label>
+                <input type="text" placeholder=""/>
+            </div>
+            <div class="champ-conteneur">
+                <label for="date-naissance">Date de Naissance</label>
+                <input type="date" placeholder=""/>
+            </div>
+            <div class="champ info-adresse">
+                <div class=" champ info_pays">
+                    <label for="pays">Pays:</label>
+                    <select id="pays" name="pays" onchange="choixDuPays()" required>
+                        <option value="">Choix du pays de Connexion</option>
+                        <option value="haiti">Haïti</option>
+                        <option value="autre">Autres</option>
+                      </select>
+                </div>
+                <div class="dept_com hidden">
+                    <!--Choix du departement-->
+                    <div class="champ info-dept">
+                        <label for="departement">Département:</label>
+                        <select id="departement" name="departement" onchange="updateCommunes()" required>
+                          <option value="">Choisissez votre département</option>
+                          <option value="Ouest">Ouest</option>
+                          <option value="Artibonite">Artibonite</option>
+                          <option value="Centre">Centre</option>
+                          <option value="Nord">Nord</option>
+                          <option value="Nord-Est">Nord-Est</option>
+                          <option value="Nord-Ouest">Nord-Ouest</option>
+                          <option value="Sud-Est">Sud-Est</option>
+                          <option value="Nippes">Nippes</option>
+                          <option value="Sud">Sud</option>
+                          <option value="Grand-Anse">Grand-Anse</option>
+                        </select>
+                    </div>
+
+                    <!--Choix du commune-->
+                    <div class="champ info-com">
+                        <label for="commune">Commune:</label>
+                        <select id="commune" name="commune" required>
+                            <option value="">Choisissez votre commune</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="conteneur-btn-modification">
+                <a href="compte_user.html">Annuler</a>
+                <button type="submit">Modifier</button>
+            </div>
+            
+        </form>
+    </section>
+</body>
+</html>

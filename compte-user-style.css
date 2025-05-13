@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+.section-liens-redirections{
+    padding:10px;
+    background-color: #f1f1f1;
+}
+
+.deco{
+    background: linear-gradient(#e66465, #9198e5);
+    height:30vh;
+    width:100%;
+    padding:5px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    /* border:1px solid #000; */
+    margin-top:calc(200*var(--res));
+    height:55vh;
+}
+.deco img{
+    width:calc(220*var(--res));
+}
+.deco h2{
+    font-size:calc(80 * var(--res));
+    text-align:center;
+    margin-top:calc(30*var(--res));
+    color:#fff;
+}
+.deco h2 span{
+    font-size:calc(100 * var(--res));
+    color:#fff;
+}
+main ul{
+    list-style: none;
+    text-decoration: none;
+}
+main ul a{
+    text-decoration: none;
+}
+main ul a i{
+    float:right;
+    font-size: calc(100*var(--res));
+}
+main ul a li{
+    text-decoration: none;
+    font-size:calc(60*var(--res));
+    padding:calc(40*var(--res));
+    background-color: #a39f9f;
+    margin-bottom:calc(50*var(--res));
+    font-weight: bold;
+    color:#fff;
+}
+.btn-sup-compte{
+    margin-top:calc(200*var(--res));
+    padding:calc(40*var(--res));
+    background-color: #6294ff;
+    width:100%;
+    font-size:calc(60*var(--res));
+    text-align:center;
+    font-weight: bold;
+    color:#fff;
+    border:none;
+}
+
+/*Confirmation sur la suppresion du compte*/
+.page-modal-sup{
+    position:absolute;
+    bottom:0;
+    height:100vh;
+    width:100%;
+    background-color: #ffffff2c;
+    backdrop-filter:blur(05px);
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+.active-confirm-option{
+    display:flex;
+}
+.modale-sup-compte{
+    width:80%;
+    height:25vh;
+    background-color: #fff;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.modale-sup-compte h2{
+    font-size:calc(70*var(--res));
+    color:#222222;
+}
+.conteneur-btn-sup-compte button{
+    padding:calc(20*var(--res));
+    border:none;
+    font-weight: bold;
+}
+.btn-annule{
+    padding:calc(20*var(--res));
+    background-color: #a39f9f;
+    color:#222222;
+    font-size:calc(60*var(--res));
+}
+
+.btn-supp-modal {
+    padding:calc(20*var(--res));
+    background-color: #e66465;
+    color:#ffffff;
+    font-size:calc(60*var(--res));
+}

@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+section{
+    padding:calc(20*var(--res));
+}
+.conteneur-retour{
+    margin-bottom:calc(20*var(--res));
+}
+.conteneur-retour img{
+    width:calc(100*var(--res));
+}
+.conteneur-titre-texte-info-profil{
+    margin:calc(50*var(--res)) calc(0*var(--res));
+}
+.conteneur-titre-texte-info-perso p{
+    text-align: justify;
+    overflow: hidden;
+    color:#6b7280;
+}
+/*Travaillons sur le formulaire*/
+.champ-conteneur label{
+    display:block;
+    margin-bottom:calc(10*var(--res));
+    font-size:calc(50*var(--res));
+}
+.champ-conteneur input{
+    width:100%;
+    padding:calc(20*var(--res));
+    border:1px solid #52525260;
+    font-size:calc(50*var(--res));
+    outline:none;
+    border-radius:5px;
+}
+.champ label{
+    display:block;
+    margin-bottom:calc(10*var(--res));
+    font-size:calc(50*var(--res));
+}
+.champ select{
+    width:100%;
+    padding:calc(20*var(--res));
+    border:1px solid #52525260;
+    font-size:calc(50*var(--res));
+    outline:none;
+    border-radius:5px;
+}
+.champ-conteneur, .champ{
+    margin-bottom:15px;
+}
+.conteneur-btn-modification{
+    margin-top:calc(40*var(--res));
+    margin-bottom:calc(100*var(--res));
+}
+.conteneur-btn-modification a{
+    border:2px solid #9198e5;
+    padding:10px;
+    font-size:calc(70*var(--res));
+    color:#000;
+    border-radius:10px;
+    text-decoration:none;
+}
+.conteneur-btn-modification button{
+    background-color:#9198e5;
+    border:none;
+    padding:10px;
+    font-size:calc(70*var(--res));
+    font-weight: bold;
+    color:#fff;
+    border-radius:10px;
+    text-decoration:none;
+}

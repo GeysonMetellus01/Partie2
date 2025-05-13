@@ -1,0 +1,67 @@
+
+
+/*Css page info de profil*/
+.lien-mdp{
+    background: #9198e5;
+    padding:calc(30*var(--res));
+    display:flex;
+    margin-bottom:calc(160*var(--res));
+}
+.lien-mdp p{
+    font-size: calc(60*var(--res));
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    list-style: none;
+}
+.lien-mdp p i{
+    float:right;
+    font-size: calc(80*var(--res));
+}
+.conteneur-titre-texte-info-perso{
+    border:1px solid #2764E7;
+    padding:5px;
+    color:#fff;
+    margin-bottom:15px;
+}
+.conteneur-titre-texte-info-perso h1{
+    font-size:calc(80*var(--res));
+    color:#2764E7;
+}
+.conteneur-titre-texte-info-perso  p{
+    font-size:calc(60*var(--res));
+}
+/*Changement de Mot de Passe*/
+.conteneur-mdp-mod{
+    height:100vh;
+    width:100%;
+    padding:calc(20*var(--res));
+    position:absolute;
+    top:05%;
+    background-color: #fff;
+    left:-100%;
+    transition:0.3s;
+}
+.active-mdp-mot{
+    left:0;
+}
+.conteneur-mdp-mod h2{
+    font-size:calc(65*var(--res));
+    text-align: center;
+    color:#2764E7;
+    margin:calc(50*var(--res)) calc(0*var(--res));
+}
+.champ label{
+    font-size:calc(65*var(--res));
+    display: block;
+    color:#000;
+    margin-bottom:calc(30*var(--res));
+}
+form .champ input{
+    width:100%;
+    padding:calc(20*var(--res));
+    border:1px solid #52525260;
+    font-size:calc(50*var(--res));
+    outline:none;
+    border-radius:5px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Ajoutons le css-->
+    <link rel="stylesheet" href="../css/home-user-style.css"/>
+    <link rel="stylesheet" href="../css/info-profil-style.css"/>
+    <link rel="stylesheet" href="../css/info-perso-style.css"/>
+    <!--Ajoutons le Javascript-->
+    <script typte="module" defer src="../js/mdp.js"></script>
+    <!--Ajoutons les liens pour les outils supplementaires-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+    <header class="header-home">
+        <a href="home_user.html"><img src="../images/Logo-Annli.jpg" alt="Logo d'Annli" class="logo"/></a>
+    
+        <img src="../images/search-icon.png" alt="" class="point-recherche"/>
+    </header>
+    <!--Bar de navigation fixée au bas de la page-->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="home_user.html"><img src="../images/home.png" alt=""></a></li>
+            <li><img src="../images/library.svg" alt=""></li>
+            <li><img src="../images/history.svg" alt=""></li>
+            <li><img src="../images/user.png" alt="" ></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="conteneur-retour">
+            <a href="compte_user.html"><img src="../images/retour.png"/></a> 
+            
+        </div>
+        <div class="conteneur-titre-texte-info-perso">
+            <h1>Informations Personnelles</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam voluptatibus voluptate eos 
+                dolores nobis perspiciatis.
+            </p>
+        </div>
+        <form method="" action="">
+            <div class="champ-conteneur">
+                <label for="nom">Nom de Famille</label>
+                <input type="text" placeholder=""/>
+            </div>
+            <div class="champ-conteneur">
+                <label for="prenom">Prénom</label>
+                <input type="text" placeholder=""/>
+            </div>
+            <div class=" champ info_pays sexe">
+                <label for="sexe">Sexe</label>
+                <select id="sexe" name="sexe" >
+                    <option value="">Sexe</option>
+                    <option value="femme">Femme</option>
+                    <option value="autre">Homme</option>
+                    <option value="autre">Autre</option>
+                  </select>
+            </div>
+            <div class="champ-conteneur">
+                <label for="adresse">Adresse</label>
+                <input type="text" placeholder=""/>
+            </div>
+            <div class="champ-conteneur">
+                <label for="telephone">Téléphone</label>
+                <input type="number" placeholder=""/>
+            </div>
+            
+            <div class="conteneur-btn-modification">
+                <a href="compte_user.html">Annuler</a>
+                <button type="submit">Modifier</button>
+            </div>
+        </form>
+        <div class="lien-mdp">
+            <p class="btn-chang-mdp">Changer Votre Mot de Passe<i class='bx bx-right-arrow-alt' style='color:#fbf9f9'></i></p>
+        </div>
+    </section>
+    <div class="conteneur-mdp-mod">
+        <h2>Changez votre Mot de Passe, ici</h2>
+        <form action="" method="">
+            <div class="champ">
+                <label for="ancien-mdp">Mot de Passe actuel</label>
+                <input type="password">
+            </div>
+            <div class="champ">
+                <label for="nv-mdp">Nouveau Mot de Passe</label>
+                <input type="password">
+            </div>
+            <div class="champ">
+                <label for="con-nv-mdp">Confirmer votre Mot de Passe</label>
+                <input type="password">
+            </div>
+            <div class="conteneur-btn-modification">
+                <a href="" class="anunuler-btn-mdp">Annuler</a>
+                <button type="submit">Modifier</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

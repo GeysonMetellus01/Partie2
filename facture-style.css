@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+header{
+    padding:calc(20*var(--res));
+    border-bottom:1px solid #525252;
+}
+header img{
+    width:calc(400*var(--res));
+}
+section{
+    padding:calc(20*var(--res));
+}
+.conteneur-retour-facture img{
+    width:calc(50*var(--res));
+    margin:calc(20*var(--res));
+}
+h1{
+    text-align:center;
+    margin:calc(50*var(--res));
+    font-size:calc(70*var(--res));
+    color:#000;
+}
+.conteneur-historique{
+    background-color: #ebebeb;
+    padding:calc(20*var(--res));
+    border-radius:10px;
+    margin-bottom:calc(35*var(--res));
+}
+.historique-element{
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.conteneur-left{
+    width:50%;
+    flex-wrap: wrap;
+}
+.conteneur-right{
+    width:40%;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.date, .montant{
+    color:#525252;
+}
+.statut{
+    color:#22c55e;
+}
+.statut1{
+    color:#e66465;
+}

@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+header{
+    padding:calc(20*var(--res));
+    border-bottom:1px solid #525252;
+}
+header img{
+    width:calc(400*var(--res));
+}
+
+section{
+    padding:calc(20*var(--res));
+}
+.conteneur-retour-notification{
+    margin-bottom:calc(50*var(--res));
+}
+.conteneur-retour-notification img{
+    width:calc(50*var(--res));
+    margin:calc(20*var(--res));
+}
+.conteneur-message{
+    width:100%;
+}
+.message{
+    border-bottom: 1px solid #525252;
+    padding-bottom:calc(20*var(--res));
+    margin-bottom:calc(50*var(--res));
+}
+.text-message{
+    font-size:calc(40*var(--res));
+    text-align: justify;
+    white-space: wrap;
+    font-weight: 500;
+}
+.date-message{
+    font-size:calc(40*var(--res));
+    text-align: justify;
+    font-weight: 500;
+    color: #525252;
+}

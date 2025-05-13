@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --res:calc(0.01*10vmin);
+}
+header{
+    padding:calc(20*var(--res));
+    border-bottom:1px solid #525252;
+}
+header img{
+    width:calc(400*var(--res));
+}
+.section-facture{
+    padding:20px;
+}
+.conteneur-retour-facture img{
+    width:calc(80*var(--res));
+}
+.section-facture h2{
+    margin:calc(80*var(--res)) calc(0*var(--res));
+    text-align: justify;
+    font-size:calc(70*var(--res));
+    color:#7c7c7c;
+    white-space:initial;
+}
+.conteneur-facture{
+    background-color:#2764E7;
+    padding:calc(30*var(--res));
+    border-radius: 10px;
+}
+.conteneur-facture a{
+    width: 100%;
+    color:#fff;
+    font-size:calc(70*var(--res));
+    font-weight: bold;
+    text-decoration: none;
+}
+hr{
+    margin:calc(30*var(--res));
+}
+
+/*Plan d'abonnement*/
+
+.conteneur-plan-abonnement{
+    margin-top:20px;
+}
+.conteneur-plan-abonnement h2{
+    margin:calc(50*var(--res)) calc(0*var(--res));
+    font-size:calc(100*var(--res));
+    text-align: center;
+    color:#ff2027;
+}
+.plan1{
+    border:1px solid #f5f5f5;
+    border-radius: 10px;
+    background-color: #f8f6f6;
+    padding: 20px;
+    border:1px solid #2764E7;
+}
+.plan2{
+    border:1px solid #f5f5f5;
+    border-radius: 10px;
+    background-color:#2764e770;
+    padding: 20px;
+}
+.entete{
+    margin-top: calc(100 * var(--res));
+    margin-bottom: calc(80 * var(--res));
+    border-bottom: 1px solid #52525260;
+}
+.entete2{
+    margin-top: calc(80 * var(--res));
+    margin-bottom: calc(80 * var(--res));
+    border-bottom: 1px solid #52525260;
+    background-color: #2764E7;
+    border-radius: 0px 15px 0px 15px;
+}
+.entete h2{
+    text-align: center;
+    font-size: calc(120 * var(--res));
+    color:#2764E7;
+}
+.entete2 h2{
+    text-align: center;
+    padding: 10px;
+    font-size: calc(120 * var(--res));
+    color:#ffffff;
+}
+
+.entete p{
+    text-align: center;
+    font-size: calc(50 * var(--res));
+    color:#525252;
+}
+.entete2 p{
+    text-align: center;
+    font-size: calc(50 * var(--res));
+    color:#000000;
+}
+.description-plan{
+    padding:calc(30 * var(--res));
+}
+
+.description-plan ul{
+    border-bottom: 1px solid #52525260;
+    list-style: none;
+    margin:auto;
+}
+.description-plan ul li{
+    font-size:calc(60 * var(--res));
+    margin-bottom:calc(60 * var(--res));
+}
+
+.description-plan ul span{
+    display:flex;
+    gap:3px;
+    align-items:start;
+}
+.description-plan ul div img{
+    width:20px;
+}
+.btn-abonnement1{
+    text-align: center;
+    padding: calc(40*var(--res));
+}
+.btn-abonnement2{
+    text-align: center;
+    padding:20px;
+}
+.btn-abonnement1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: calc(60 * var(--res));
+    padding: calc(40*var(--res));
+    background: linear-gradient( #00C6FB,#2764E7);
+}
+.btn-abonnement2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: calc(70 * var(--res));
+    padding: calc(40*var(--res));
+    background:#ff2027;
+}
