@@ -97,7 +97,7 @@ header{
 
 /*Travaillons sur les options de l'utilisateur*/
 .conteneur-option-user{
-    width:65%;
+    width:70%;
     min-width: 70%;
     height:50vh;
     background-color: #fff;
@@ -123,7 +123,7 @@ header{
     width:calc(120*var(--res));
 }
 .hedaer-option-user p{
-    font-size:calc(50 * var(--res));
+    font-size:calc(45 * var(--res));
     color:#2764E7;
     font-weight: bold;
 }
@@ -144,6 +144,6 @@ hr{
 
 }
 .nav-list-profil-user a li{
-    font-size:calc(45*var(--res));
+    font-size:calc(40*var(--res));
     color:#525252;
 }
