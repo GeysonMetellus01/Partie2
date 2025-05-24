@@ -85,7 +85,7 @@ hr{
 }
 .entete2 h2{
     text-align: center;
-    padding: 10px;
+    padding: calc(10*var(--res));
     font-size: calc(120 * var(--res));
     color:#ffffff;
 }
