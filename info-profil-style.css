@@ -19,13 +19,13 @@ section{
     margin:calc(50*var(--res)) calc(0*var(--res));
 }
 .conteneur-titre-texte-info-perso h1{
-    font-size:calc(80*var(--res));
+    font-size:calc(75*var(--res));
 }
 .conteneur-titre-texte-info-perso p{
     text-align: justify;
     overflow: hidden;
     color:#6b7280;
-    font-size:calc(40*var(--res));
+    font-size:calc(35*var(--res));
 }
 /*Travaillons sur le formulaire*/
 .champ-conteneur label{
@@ -73,7 +73,7 @@ section{
     background-color:#9198e5;
     border:none;
     padding:calc(15*var(--res));
-    font-size:calc(50*var(--res));
+    font-size:calc(60*var(--res));
     font-weight: bold;
     color:#fff;
     border-radius:10px;
