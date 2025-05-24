@@ -49,7 +49,7 @@ main ul a{
 }
 main ul a i{
     float:right;
-    font-size: calc(90*var(--res));
+    font-size: calc(80*var(--res));
 }
 main ul a li{
     text-decoration: none;
