@@ -123,7 +123,7 @@ header{
     width:calc(120*var(--res));
 }
 .hedaer-option-user p{
-    font-size:calc(70 * var(--res));
+    font-size:calc(60 * var(--res));
     color:#2764E7;
     font-weight: bold;
 }
