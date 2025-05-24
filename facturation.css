@@ -14,7 +14,7 @@ header img{
     width:calc(400*var(--res));
 }
 .section-facture{
-    padding:20px;
+    padding:calc(20*var(--res));
 }
 .conteneur-retour-facture img{
     width:calc(80*var(--res));
@@ -22,7 +22,7 @@ header img{
 .section-facture h2{
     margin:calc(80*var(--res)) calc(0*var(--res));
     text-align: justify;
-    font-size:calc(70*var(--res));
+    font-size:calc(60*var(--res));
     color:#7c7c7c;
     white-space:initial;
 }
@@ -34,7 +34,7 @@ header img{
 .conteneur-facture a{
     width: 100%;
     color:#fff;
-    font-size:calc(70*var(--res));
+    font-size:calc(60*var(--res));
     font-weight: bold;
     text-decoration: none;
 }
@@ -49,7 +49,7 @@ hr{
 }
 .conteneur-plan-abonnement h2{
     margin:calc(50*var(--res)) calc(0*var(--res));
-    font-size:calc(100*var(--res));
+    font-size:calc(80*var(--res));
     text-align: center;
     color:#ff2027;
 }
