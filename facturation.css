@@ -27,7 +27,7 @@ header img{
     white-space:initial;
 }
 .conteneur-facture{
-
+    width:100%;
 }
 .conteneur-facture a{
     background-color:#2764E7;
