@@ -13,9 +13,8 @@ html{
 
 .deco{
     background: linear-gradient(#e66465, #9198e5);
-    height:30vh;
     width:100%;
-    padding:5px;
+    padding:calc(10*var(--res));
     border-radius: 10px;
     display:flex;
     flex-direction: column;
@@ -50,6 +49,7 @@ main ul a{
 main ul a i{
     float:right;
     font-size: calc(70*var(--res));
+    
 }
 main ul a li{
     text-decoration: none;
