@@ -5,10 +5,10 @@
     background: #9198e5;
     padding:calc(30*var(--res));
     display:flex;
-    margin-bottom:calc(160*var(--res));
+    margin-bottom:calc(180*var(--res));
 }
 .lien-mdp p{
-    font-size: calc(45*var(--res));
+    font-size: calc(50*var(--res));
     text-decoration: none;
     color:#fff;
     font-weight: bold;
