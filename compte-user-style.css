@@ -14,6 +14,7 @@ html{
 .deco{
     background: linear-gradient(#e66465, #9198e5);
     width:100%;
+    height:auto;
     padding:calc(10*var(--res));
     border-radius: 10px;
     display:flex;
@@ -21,13 +22,9 @@ html{
     justify-content: center;
     align-items: center;
 }
-main{
-    /* border:1px solid #000; */
-    margin-top:calc(200*var(--res));
-    height:55vh;
-}
+
 .deco img{
-    width:calc(220*var(--res));
+    width:calc(200*var(--res));
 }
 .deco h2{
     font-size:calc(70 * var(--res));
@@ -38,6 +35,11 @@ main{
 .deco h2 span{
     font-size:calc(80 * var(--res));
     color:#fff;
+}
+main{
+    /* border:1px solid #000; */
+    margin-top:calc(200*var(--res));
+    height:55vh;
 }
 main ul{
     list-style: none;
