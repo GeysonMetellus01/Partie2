@@ -91,9 +91,9 @@ main ul a li{
 }
 .modale-sup-compte{
     width:80%;
-    height:25vh;
+    height:auto;
     background-color: #fff;
-    padding:10px;
+    padding:calc(15*var(--res));
     border-radius:10px;
     text-align:center;
     display:flex;
@@ -101,7 +101,7 @@ main ul a li{
     justify-content: space-evenly;
 }
 .modale-sup-compte h2{
-    font-size:calc(70*var(--res));
+    font-size:calc(55*var(--res));
     color:#222222;
 }
 .conteneur-btn-sup-compte button{
@@ -111,14 +111,14 @@ main ul a li{
 }
 .btn-annule{
     padding:calc(20*var(--res));
-    background-color: #a39f9f;
+    background-color: #c9c9c9;
     color:#222222;
-    font-size:calc(60*var(--res));
+    font-size:calc(55*var(--res));
 }
 
 .btn-supp-modal {
     padding:calc(20*var(--res));
     background-color: #e66465;
     color:#ffffff;
-    font-size:calc(60*var(--res));
+    font-size:calc(55*var(--res));
 }
