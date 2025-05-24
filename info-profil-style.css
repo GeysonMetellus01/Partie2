@@ -13,15 +13,19 @@ section{
     margin-bottom:calc(20*var(--res));
 }
 .conteneur-retour img{
-    width:calc(100*var(--res));
+    width:calc(70*var(--res));
 }
 .conteneur-titre-texte-info-profil{
     margin:calc(50*var(--res)) calc(0*var(--res));
+}
+.conteneur-titre-texte-info-perso h1{
+    font-size:calc(80*var(--res));
 }
 .conteneur-titre-texte-info-perso p{
     text-align: justify;
     overflow: hidden;
     color:#6b7280;
+    font-size:calc(50*var(--res));
 }
 /*Travaillons sur le formulaire*/
 .champ-conteneur label{
@@ -59,8 +63,8 @@ section{
 }
 .conteneur-btn-modification a{
     border:2px solid #9198e5;
-    padding:10px;
-    font-size:calc(70*var(--res));
+    padding:calc(20*var(--res));
+    font-size:calc(60*var(--res));
     color:#000;
     border-radius:10px;
     text-decoration:none;
@@ -68,8 +72,8 @@ section{
 .conteneur-btn-modification button{
     background-color:#9198e5;
     border:none;
-    padding:10px;
-    font-size:calc(70*var(--res));
+    padding:calc(20*var(--res));
+    font-size:calc(60*var(--res));
     font-weight: bold;
     color:#fff;
     border-radius:10px;
