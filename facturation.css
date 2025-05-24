@@ -27,11 +27,12 @@ header img{
     white-space:initial;
 }
 .conteneur-facture{
+
+}
+.conteneur-facture a{
     background-color:#2764E7;
     padding:calc(30*var(--res));
     border-radius: 10px;
-}
-.conteneur-facture a{
     width: 100%;
     color:#fff;
     font-size:calc(55*var(--res));
