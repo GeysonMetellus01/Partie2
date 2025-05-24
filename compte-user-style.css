@@ -37,7 +37,7 @@ main{
     color:#fff;
 }
 .deco h2 span{
-    font-size:calc(90 * var(--res));
+    font-size:calc(80 * var(--res));
     color:#fff;
 }
 main ul{
@@ -49,11 +49,11 @@ main ul a{
 }
 main ul a i{
     float:right;
-    font-size: calc(100*var(--res));
+    font-size: calc(90*var(--res));
 }
 main ul a li{
     text-decoration: none;
-    font-size:calc(50*var(--res));
+    font-size:calc(45*var(--res));
     padding:calc(40*var(--res));
     background-color: #a39f9f;
     margin-bottom:calc(50*var(--res));
@@ -65,7 +65,7 @@ main ul a li{
     padding:calc(40*var(--res));
     background-color: #6294ff;
     width:100%;
-    font-size:calc(50*var(--res));
+    font-size:calc(45*var(--res));
     text-align:center;
     font-weight: bold;
     color:#fff;
