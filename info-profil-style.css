@@ -25,7 +25,7 @@ section{
     text-align: justify;
     overflow: hidden;
     color:#6b7280;
-    font-size:calc(50*var(--res));
+    font-size:calc(40*var(--res));
 }
 /*Travaillons sur le formulaire*/
 .champ-conteneur label{
@@ -63,7 +63,7 @@ section{
 }
 .conteneur-btn-modification a{
     border:2px solid #9198e5;
-    padding:calc(20*var(--res));
+    padding:calc(15*var(--res));
     font-size:calc(60*var(--res));
     color:#000;
     border-radius:10px;
@@ -72,8 +72,8 @@ section{
 .conteneur-btn-modification button{
     background-color:#9198e5;
     border:none;
-    padding:calc(20*var(--res));
-    font-size:calc(60*var(--res));
+    padding:calc(15*var(--res));
+    font-size:calc(50*var(--res));
     font-weight: bold;
     color:#fff;
     border-radius:10px;
