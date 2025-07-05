@@ -20,5 +20,20 @@ btn_open_option_user.addEventListener('click',()=>{
 });
 
 
-/////////////////////////
+///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const navBar = document.querySelector('.navbar');
+  const boiteModale = document.querySelector('.conteneur-option-user');
+
+  if (navBar && boiteModale) {
+    boiteModale.style.bottom = `${navBar.offsetHeight}px`;
+  } else {
+    console.warn('Élément navbar ou modale introuvable');
+  }
+  console.log(navBar.offsetHeight);
+});
+
 
